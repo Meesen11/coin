@@ -37,11 +37,8 @@ button {
 
 #dumplings_click_main {
   background-color: transparent;
-  border: none;
-  padding: 0;
-  cursor: pointer;
   transform: scale(0.2);
-  margin-left: -30%;
+  margin-left: -70%;
   margin-top: -22%; /* Изменили значение отступа вверх на 20% */
 }
 
