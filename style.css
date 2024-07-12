@@ -1,6 +1,6 @@
 body {
   background-image: url(les.png);
-  background-size: 500px;
+  background-size: cover
   background-repeat: no-repeat;
   
 }
@@ -40,6 +40,8 @@ button {
   transform: scale(0.2);
   margin-left: -70%;
   margin-top: -22%; /* Изменили значение отступа вверх на 20% */
+  display: block;
+  mask-image: 0 auto;
 }
 
 #capybara_main {
