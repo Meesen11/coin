@@ -1,8 +1,7 @@
 body {
-  background-image: url(les.png);
-  background-size: cover
-  background-repeat: no-repeat;
-  
+  background-image: url(images/les.png);
+  background-size: cover;
+  overflow: hidden;
 }
 
 @font-face {
@@ -18,15 +17,6 @@ body {
   position: relative;
   top: -750px;
   font-family: 'Sangha', sans-serif; /* Используем ваш шрифт */
-}
-
-
-button {
-  color: black;
-  font-size: 40px;
-  margin: 0 auto;
-  display: block;
-  background-image: url(dumplings.png);
 }
 
 #capybara_main {
@@ -46,7 +36,6 @@ button {
 
 #capybara_main {
   width: 50%; /* Пример использования процентов */
-  height: auto;
 }
 
 
